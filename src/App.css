@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.white-space{
+    display: flex;
+    width: 65%;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.form{
+    margin: 10em auto;
+    width: 50%;
+    height: 70vh;
+    display: block;
+}
+
+.form p{
+    margin-top: 3em;
+    font-size: 12px;
+}
+
+.form p span{
+    color: rgb(28, 92, 243);
+    font-weight: 700;
+}
+
+.input-fields{
+    display: inline-grid;
+    margin-top: 1em;
+}
+
+.input-fields input{
+    margin-top: 1em;
+    padding: 0.5em;
+    width: 400px;
+    height: 1.5em;
+    color: gray;
+    align-items: center;
+    border: 1px solid rgb(242, 236, 236);
+    border-radius: 0.3em;
+}
+
+.password-input button{
+    background: transparent;
+    border: none;
+    color: black;
+    margin-left: -35px;
+}
+
+.password-input button svg{
+    margin-bottom: -4px;
+}
+
+.select-box{
+    width: 500;
+    height: 2.5em;
+    margin-top: 1em;
+    color: gray;
+    border: 1px solid rgb(240, 233, 233);
+    border-radius: 0.3em;
+}
+
+.btn-lg{
+    height: 40px;
+    background: rgb(233, 231, 231);
+    margin-top: 2em;
+    border: none;
+    font-weight: 900;
+    color: rgb(177, 171, 171);
+}
+
+.footer-text{
+    color: black;
+}
+
+.blue-space{
+    width: 35%;
+    height: 100;
+    background-color: rgb(28, 92, 243);
+}
+
+.writeup{
+    color: white;
+    margin-top: 70%;
+    margin-left: 20%;
+}
+
+.writeup h2{
+    margin-left: 2em;
+    margin-bottom: 3em;
+}
+
+.writeup p{
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
